@@ -54,7 +54,7 @@ function setup() {
     ship.scale = 0.2;
 
     //create gameOver
-    gameOver=createSprite(displayWidth/2,displayHeight/2);
+    gameOver=createSprite(displayWidth/2-500,displayHeight/2-200);
     gameOver.addImage("gameOver",gameOverImage);
 
     //4 groups 
